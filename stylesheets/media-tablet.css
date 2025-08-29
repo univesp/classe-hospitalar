@@ -1,0 +1,146 @@
+@media (min-width: 768px) and (max-width: 1192px) {
+    .tablet-hide {
+        display: none !important;
+    }
+
+/* Vars */
+:root {
+    --gap-padrao: 2rem;
+    --padding-basico: 5vw 7vw 0% 7vw;
+  }
+
+  .seta-titulo {
+  width: clamp(1rem, 7vw, 2rem);
+  margin-bottom: 4.2rem;
+}
+    
+  /* Títulos */
+  #titulo-capitulo h2 {
+    font-size: 3rem;
+  }
+
+  .titulo-container p {
+    font-size: 1.3rem;
+  }
+
+  /* Vídeo */
+  .video-frame {
+    width: 100%;
+  }
+
+
+  /* ----------------------------------------------------------------------------------- */
+
+/* Intro */
+
+.intro-text-box  {
+  padding: 2rem 3rem;
+  width: 70vw;
+  margin: 8vw 0;
+
+}
+
+  /* ----------------------------------------------------------------------------------- */
+
+/* Capítulo 1 */
+#capitulo-1 .main-container .box-1 {
+  width: 70%;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr  auto;
+}
+
+#capitulo-1 .main-container .box-1 .box-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#capitulo-1 .main-container .box-2 {
+  width: 70%;
+}
+
+.passaros {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  }
+
+  /* ----------------------------------------------------------------------------------- */
+
+/* Capítulo 3 */
+
+/* Capítulo 3 - Linha do Tempo */
+.subcontainer-linha-do-tempo {
+  padding: 0 1.5rem;
+  gap: 2rem;
+
+}
+
+.trem {
+  width: 100%;
+}
+
+/* Capítulo 5 */
+#capitulo-5 .main-container .titulo-container {
+    margin: 3.5rem 0 1.5rem 0;
+    width: 100%;
+    align-items: flex-start;
+    align-self: center;
+}
+
+/* Capítulo 6 */
+
+
+.hide-box {
+    padding: 0 2rem 0 2rem !important;
+}
+
+#capitulo-6 .sub-container-1 {
+    margin-bottom: 1rem;
+}
+
+#capitulo-6 .sub-container-2 {
+    max-width: 100%;
+    gap: 5rem;
+}
+
+#capitulo-6 .sub-container-2 .acesse-os {
+      margin-top: 1.6rem;
+} 
+
+.container-estrelas-cap-6 {
+    width: 100%;
+    gap: 1rem;
+}
+
+.container-estrelas-cap-6 img {
+    width: 1.2rem;
+}
+
+#capitulo-6 .divisao-estrelas {
+  margin-top: 2.5rem;
+}
+
+/* Quiz */
+.container-chamada-quiz {
+  max-width: 100%;
+}
+
+.container-chamada-quiz p {
+    padding: 0 1.8rem 2rem 1.8rem;
+}
+
+.quiz-container {
+    width: 100%;
+}
+
+#question-text {
+    margin-top: 1.4rem;
+}
+
+#capitulo-8 .main-container .sub-container-1  {
+  width: 70%;
+}
+
+}

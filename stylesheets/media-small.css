@@ -1,0 +1,344 @@
+@media (min-width: 576px) and (max-width: 767px) {
+  .small-hide {
+    display: none !important;
+  }
+
+
+
+  :root {
+    --gap-padrao: 2rem;
+    --padding-basico: 9vw 7vw 0% 7vw;
+  }
+
+
+/* fix logo */
+.logo img {
+    filter: brightness(0) invert(1) opacity(1);
+}
+
+nav .nav-link, .dropdown-menu, nav .logo img {
+    background-color: #1a1215;
+}
+
+.material-icons {
+  filter: brightness(0) invert(1) opacity(1);
+}
+
+nav .logo img {
+    background-color: transparent;
+}
+
+.container-imagem-inicial {
+    aspect-ratio: 1959 / 1504;
+}
+
+nav .nav-link:focus, nav .nav-link:hover, nav .nav-link[aria-expanded="true"] {
+    background-color: #1a1215;
+}
+
+/* Imagem Inicial Mobile */
+.nuvem:nth-child(1) {
+    left: -40%;
+    animation-duration: 50s;
+    top: 35%;
+    height: 20%;
+}
+
+.nuvem:nth-child(2) {
+    left: -55%;
+    top: 77%;
+    animation-duration: 80s;
+    height: 18%;
+}
+
+  /* Títulos */
+  #titulo-capitulo h2 {
+    font-size: 2.5rem;
+  }
+
+  .titulo-container p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+    /* Vídeo */
+    .video-frame {
+      width: 90vw;
+    }
+
+    .titulo-conteudo-texto {
+    gap: 1.5rem;
+}
+
+
+/* Intro */
+
+.intro-text-box  {
+  padding: 2rem 3rem;
+  width: 75vw;
+  margin: 12vw 0;
+}
+
+.intro img {
+  width: 100%;
+  height: auto;
+}
+
+/* Capítulo 1 */
+#capitulo-1 .main-container .box-1 {
+  width: 70%;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr  auto;
+}
+
+#capitulo-1 .main-container .box-1 .box-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#capitulo-1 .main-container .box-2 {
+  width: 70%;
+}
+
+.passaros {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  }
+
+
+
+/* Capítulo 2 */
+#capitulo-2 .main-container .sub-container-1 {
+  width: 100%;
+}
+
+/* Capítulo 3 */
+.onda {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+#capitulo-3 .main-container .sub-container-1 {
+    width: 100%;
+    gap: 1.5rem;
+}
+
+
+/* Capítulo 3 - Linha do Tempo */
+.subcontainer-linha-do-tempo {
+  padding: 0 2rem;
+  gap: 2rem;
+    grid-template-columns: 1fr; 
+  grid-template-rows: 1fr;
+}
+
+.subcontainer-linha-do-tempo.direita .card-linha-do-tempo {
+  background-color: var(--rosa-claro);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  grid-column: 1 / 1;
+}
+
+.subcontainer-linha-do-tempo.esquerda .card-linha-do-tempo {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.circulo.rosa {
+  background-color: var(--azul-claro);
+  grid-column: 1 / 1;
+}
+
+.circulo.azul {
+  background-color: var(--rosa-claro);
+}
+
+.container-linha-do-tempo .triangulo-linha-do-tempo {
+    top: 99.8%;
+}
+
+/* Capítulo 4 */
+
+.container-sol img {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+#capitulo-4 .sub-container-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 85%;
+}
+
+#capitulo-4 .sub-container-2 h5 {
+    font-size: 1.1rem;
+}
+
+#capitulo-4 h5 {
+  font-size: 1.1rem;
+}
+
+#capitulo-4 .sub-container-3 .tabela {
+    width: 100%;
+}
+
+#capitulo-4 .sub-container-4 {
+    gap: 4rem;
+}
+
+#capitulo-4 .sub-container-4 h5 {
+  color: white;
+  font-weight: bold;
+}
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 button {
+    color: white;
+    background-color: var(--azul-escuro-2);
+}
+
+    #capitulo-4 .sub-container-4 #box-cap4-sub1 button:hover {
+      background-color: var(--rosa-escuro);
+    }
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 p {
+background-color: var(--quase-branco);
+}
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 button img {
+    max-width: 1rem;
+    filter: brightness(0) saturate(100%) invert(93%) sepia(7%) saturate(223%) hue-rotate(209deg) brightness(100%) contrast(108%);
+}
+
+.trem {
+  width: 100%;
+}
+
+/* Capítulo 5 */
+#capitulo-5 .main-container .titulo-container {
+    margin: 3.5rem 0 1.5rem 0;
+    width: 100%;
+    align-items: flex-start;
+    align-self: center;
+}
+
+#capitulo-5 .sub-container-2 .estrelas-2 {
+    width: 10rem;
+}
+
+#capitulo-5 .sub-container-3 {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    width: 100%;
+}
+
+
+#capitulo-5 .sub-container-3 .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+#capitulo-5 .sub-container-3 button {
+    width: 5.4rem;
+    height: 6.3rem;
+    padding: 0.8rem 1.6rem;
+}
+
+
+#capitulo-5 .container-carrossel {
+    grid-template-columns: 1fr;
+}
+
+#capitulo-5 .container-carrossel .parte-interna {
+    padding: 2rem;
+}
+
+/* Capítulo 6 */
+.conteudo-box-cap6-sub2 {
+    grid-template-columns: 1fr;
+}
+
+.hide-box {
+    padding: 0 2rem 0 2rem !important;
+}
+
+.container-estrelas-cap-6 {
+    width: 100%;
+    gap: 1rem;
+}
+
+.container-estrelas-cap-6 img {
+    width: 1.2rem;
+}
+
+#capitulo-6 .sub-container-1 {
+    margin-bottom: 1rem;
+}
+
+#capitulo-6 .sub-container-2 {
+    max-width: 100%;
+}
+
+#capitulo-6 .divisao-estrelas {
+  margin-top: 2.5rem;
+}
+
+#capitulo-6 #box-saiba-mais {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.acesse-os {
+    margin-top: 2rem;
+}
+
+/* Quiz */
+.container-chamada-quiz .parte-superior h3 {
+    font-size: 1.1rem;
+}
+
+.container-chamada-quiz {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.container-chamada-quiz p {
+    padding: 0 1.8rem 2rem 1.8rem;
+}
+
+.quiz-container {
+    width: 100%;
+}
+
+#question-text {
+    margin-top: 1.4rem;
+}
+
+/* Capítulo 7 */
+#capitulo-7 .main-container {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+
+#box-saiba-mais {
+  width: 90%;
+}
+
+/* Capítulo 8 */
+#capitulo-8 .main-container {
+    padding-top: 2rem;
+}
+
+#capitulo-8 .main-container .sub-container-1  {
+  width: 90%;
+}
+
+}

@@ -1,0 +1,530 @@
+@media (max-width: 575px) {
+    .mobile-hide {
+        display: none !important;
+    }
+
+    :root {
+      --padding-lateral-mobile: 4%;
+        --gap-padrao: 2rem;
+        --padding-basico: 3rem 5vw 0% 5vw;
+      }
+    
+
+.titulo-conteudo-texto {
+    gap: 1.5rem;
+}
+
+
+/* fix logo */
+.logo img {
+    filter: brightness(0) invert(1) opacity(1);
+}
+
+nav .nav-link, .dropdown-menu, nav .logo img {
+    background-color: #1a1215;
+}
+
+.material-icons {
+  filter: brightness(0) invert(1) opacity(1);
+}
+
+nav .logo img {
+    background-color: transparent;
+}
+
+.container-imagem-inicial {
+    aspect-ratio: 1959 / 1504;
+}
+
+nav .nav-link:focus, nav .nav-link:hover, nav .nav-link[aria-expanded="true"] {
+    background-color: #1a1215;
+}
+
+/* Imagem Inicial Mobile */
+.nuvem:nth-child(1) {
+    left: -40%;
+    animation-duration: 50s;
+    top: 35%;
+    height: 20%;
+}
+
+.nuvem:nth-child(2) {
+    left: -55%;
+    top: 77%;
+    animation-duration: 80s;
+    height: 18%;
+}
+
+/* Menu */
+.icone-menu {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icone-menu img {
+  width: 2rem;
+  margin-top: -0.3rem;
+}
+     
+.nome-secao-container {
+    padding: 0.8rem;
+}
+
+.icone-menu p {
+    margin-right: 0.4rem;
+}
+   
+/* Títulos */
+
+  #titulo-capitulo h2 {
+    font-size: 2.2rem;
+  }
+
+  .titulo-container p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .titulo-conteudo-texto h3 {
+    font-size: 1.4rem;
+}
+
+    /* Vídeo */
+    .video-frame {
+      width: 90vw;
+    }
+
+    /* Intro */
+
+.intro-text-box  {
+  padding: 2rem 2rem;
+  width: 88vw;
+  margin: 12vw 0 12vw 0;
+  box-shadow: inset 7px 0 0 0 #6B5C5C;
+}
+
+.intro img {
+  width: 100%;
+  height: auto;
+}
+
+/* Capítulo 1 */
+#capitulo-1 .main-container .box-1 {
+  width: 80%;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr  auto;
+  margin-top: 3rem;
+}
+
+#capitulo-1 .main-container .box-1 .box-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#capitulo-1 .main-container .box-2 {
+  width: 85%;
+  margin-bottom: 3rem;
+}
+
+.passaros {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  }
+
+/* Capítulo 2 */
+#capitulo-2 .main-container {
+    padding-top: 4rem;
+}
+
+#capitulo-2 .main-container .sub-container-1 {
+  width: 100%;
+}
+
+#capitulo-2 .main-container .video-frame {
+    margin: 0 0 3.5rem 0;
+}
+
+#capitulo-2 #titulo-capitulo {
+    margin: 0 0 1.5rem 0;
+}
+
+#capitulo-2 .main-container .sub-container-1 .conceito {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/* Capítulo 3 */
+.onda {
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+
+#capitulo-3 .main-container {
+  padding-top: 5rem;
+  }
+
+#capitulo-3 .main-container .sub-container-1 {
+    width: 100%;
+    gap: 1rem;
+}
+
+
+
+/* Capítulo 3 - Linha do Tempo */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-3%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(3%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.subcontainer-linha-do-tempo {
+  padding: 0;
+  gap: 1.5rem;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr;
+}
+
+.subcontainer-linha-do-tempo.direita .card-linha-do-tempo {
+  background-color: var(--rosa-claro);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  grid-column: 1 / 1;
+}
+
+
+
+.subcontainer-linha-do-tempo.esquerda .card-linha-do-tempo {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card-linha-do-tempo {
+  padding: 2.5rem 2rem;
+}
+
+.circulo.rosa {
+  background-color: var(--azul-claro);
+  grid-column: 1 / 1;
+}
+
+.circulo.azul {
+  background-color: var(--rosa-claro);
+}
+
+.container-linha-do-tempo .triangulo-linha-do-tempo {
+    top: 99.8%;
+}
+
+/* Capítulo 4 */
+#capitulo-4 .main-container {
+    padding-bottom: 6rem;
+}
+
+.container-sol img {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+#capitulo-4 .sub-container-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#capitulo-4 .sub-container-2 h5 {
+    font-size: 1.1rem;
+}
+
+#capitulo-4 h5 {
+  font-size: 1.1rem;
+}
+
+#capitulo-4 .sub-container-3 .tabela {
+    width: 100%;
+}
+
+#capitulo-4 .sub-container-3 .tabela p {
+    padding: 0.6rem 1.6rem;
+}
+
+#capitulo-4 .sub-container-4 {
+    gap: 4rem;
+}
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 button {
+    color: white;
+    background-color: var(--azul-escuro-2);
+    white-space: pre-wrap;
+}
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 p {
+background-color: var(--quase-branco);
+}
+
+#capitulo-4 .sub-container-4 #box-cap4-sub1 button img {
+    max-width: 1rem;
+    filter: brightness(0) saturate(100%) invert(93%) sepia(7%) saturate(223%) hue-rotate(209deg) brightness(100%) contrast(108%);
+}
+
+.trem {
+  width: 100%;
+}
+
+/* Capítulo 5 */
+#capitulo-5 .main-container .titulo-container {
+    margin: 4rem 0 1.5rem 0;
+    width: 100%;
+    align-items: flex-start;
+    align-self: center;
+}
+
+#capitulo-5 .sub-container-2 .estrelas-2 {
+    width: 10rem;
+}
+
+#capitulo-5 .sub-container-1 {
+  margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+#capitulo-5 .sub-container-2 {
+    margin-bottom: 7rem;
+}
+
+#capitulo-5 .container-carrossel {
+    grid-template-columns: 1fr;
+}
+
+
+#capitulo-5 .container-carrossel .parte-interna {
+    padding: 2rem;
+}
+
+#capitulo-5 .sub-container-3 {
+    grid-template-columns: 1fr;
+        row-gap: 1rem;
+}
+
+#capitulo-5 .sub-container-3 .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+#capitulo-5 .sub-container-3 button {
+  width: 4.8rem;
+  height: 5.3rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 2.8rem;
+}
+#capitulo-5 .sub-container-3 .conteudo-desafio {
+    padding: 2rem 1.2rem 2rem 4.2rem;
+}
+
+
+
+.seta-esquerda-mobile,
+.seta-direita-mobile {
+    padding: 12px 30px;
+}
+
+
+/* Capítulo 6 */
+#capitulo-6 .main-container {
+    padding-top: 5rem;
+}
+
+.conteudo-box-cap6-sub2 {
+    grid-template-columns: 1fr;
+}
+
+.hide-box {
+    padding: 0 2rem 0 2rem !important;
+}
+
+#box-cap6-sub2 button {
+  padding: 0.8rem 1rem;
+}
+
+#capitulo-6 .sub-container-1 {
+    margin-bottom: 1rem;
+}
+
+#capitulo-6 .sub-container-2 {
+    max-width: 100%;
+}
+
+.container-estrelas-cap-6 {
+    width: 100%;
+    gap: 1rem;
+}
+
+.container-estrelas-cap-6 img {
+    width: 1.2rem;
+}
+
+#capitulo-6 .divisao-estrelas {
+  margin-top: 2.5rem;
+}
+
+#capitulo-6 #box-saiba-mais {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+#box-cap6-sub2 h5 {
+    font-size: 1rem;
+}
+
+.conteudo-box-cap6-sub2 .video-frame-cap6 {
+    max-width: 100%;
+}
+
+#capitulo-6 .conteudo-box-saiba-mais {
+    gap: 1rem;
+}
+
+#capitulo-6 .conteudo-box-saiba-mais .acesse-os {
+   margin-top: 0;
+}
+
+#capitulo-6 .appear-box {
+  padding: 2.5rem 1rem 2.7rem 1rem !important;
+}
+
+#capitulo-6 .conteudo-box-saiba-mais .container-botoes  {
+    margin-top: 0;
+}
+
+#capitulo-6 .conteudo-box-saiba-mais .container-botoes .legenda {
+    padding: 1rem 0.7rem;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+/* Quiz */
+.container-chamada-quiz .parte-superior {
+    padding-right: 2rem;
+}
+
+.container-chamada-quiz .parte-superior h3 {
+    font-size: 1.1rem;
+}
+
+.container-chamada-quiz .parte-superior img {
+    max-width: 9rem;
+}
+
+.container-chamada-quiz {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.agora-que {
+    text-align: left;
+}
+
+
+.container-chamada-quiz p {
+    padding: 0 1.8rem 2rem 1.8rem;
+}
+
+.quiz-container {
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+
+#question-text {
+    margin-top: 1.4rem;
+}
+
+#capitulo-6 .sub-container-3 {
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.container-chamada-quiz .parte-superior h3 {
+    margin-left: 9rem;
+}
+
+
+/* Capítulo 7 */
+#capitulo-7 .main-container {
+    padding-top: 3rem;
+    padding-bottom: 5.5rem;
+}
+
+#capitulo-7 .sub-container-1 {
+    margin: 3.5rem 0 2rem 0;
+}
+
+#capitulo-7 .sub-container-3 .titulo-conteudo-texto h3 {
+    font-size: 1.1rem;
+}
+
+#capitulo-7 .sub-container-3 .titulo-conteudo-texto {
+    gap: 0.5rem;
+}
+
+#box-saiba-mais {
+  width: 100%;
+}
+
+/* Capítulo 8 */
+#capitulo-8 .main-container {
+    padding-top: 4rem;
+}
+
+#capitulo-8 .titulo-conteudo-texto h3 {
+    font-size: 1.1rem;
+}
+
+    #capitulo-8 .main-container #box-saiba-mais {
+        width: 100%;
+    }
+
+#capitulo-8 .conteudo-box-saiba-mais {
+  gap: 1.5rem;
+}
+
+#capitulo-8 .main-container .sub-container-1  {
+  width: 100%;
+}
+
+.livro-parte-8 {
+    margin-top: 6rem;
+}
+
+#capitulo-8 #box-saiba-mais {
+    margin-top: 4.5rem;
+}
+
+    #capitulo-8 .main-container-2 #box-saiba-mais {
+        width: 90%;
+    }
+
+}
